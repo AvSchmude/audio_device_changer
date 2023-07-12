@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "audio-device-changer"
+version = "0.1.0"
+description = ""
+authors = ["SchmudeFailed <adriant.97v.s-t@gmx.de>"]
+readme = "README.md"
+packages = [{include = "audio_device_changer"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sounddevice = "^0.4.5"
+pyqt6 = "^6.4.1"
+pywin32 = "^305"
+pyaudio = "^0.2.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
